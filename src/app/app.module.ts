@@ -11,6 +11,14 @@ import { SiginComponent } from './Components/sigin/sigin.component';
 import { RegistrationComponent } from './Components/registration/registration.component';
 import { ForgotemailComponent } from './Components/forgotemail/forgotemail.component';
 import { ForgotpasswordComponent } from './Components/forgotpassword/forgotpassword.component';
+import { HttpClientModule } from '@angular/common/http';    // used to connect with backend URL
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DashboardComponent } from './Components/dashboard/dashboard.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
 
 
 
@@ -21,7 +29,8 @@ import { ForgotpasswordComponent } from './Components/forgotpassword/forgotpassw
     SiginComponent,
     RegistrationComponent,
     ForgotemailComponent,
-    ForgotpasswordComponent
+    ForgotpasswordComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +38,14 @@ import { ForgotpasswordComponent } from './Components/forgotpassword/forgotpassw
     ReactiveFormsModule,
     MatFormFieldModule,
    // MatCheckboxModule,
-    MatInputModule
+    MatInputModule,
+    HttpClientModule,
+    MatSnackBarModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

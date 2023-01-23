@@ -14,7 +14,7 @@ export class ForgotemailComponent implements OnInit{
   constructor(private formbuilder:FormBuilder, private userService : UserService,private snack :MatSnackBar){}
 
   ngOnInit(): void {
-    this. forgotemailform=this.formbuilder.group({
+    this.forgotemailform=this.formbuilder.group({
       email:['',[Validators.required,Validators.email]]
     })
     

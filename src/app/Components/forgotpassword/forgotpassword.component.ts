@@ -11,12 +11,12 @@ import { UserService } from 'src/app/Services/userservice/user.service';
 })
 export class ForgotpasswordComponent implements OnInit{
   
-  resetPasswordForm!: FormGroup;
+  resetpasswordform!: FormGroup;
   token:any;
 
   constructor(private formbuilder:FormBuilder, private userService :UserService,private activatedroute:ActivatedRoute ){}
   ngOnInit(): void {
-    this. resetPasswordForm!=this.formbuilder.group({
+    this. resetpasswordform!=this.formbuilder.group({
       password:['', [Validators.required, Validators.minLength(6)]],
       confirmpassword:['', [Validators.required, Validators.minLength(6)]]
     })
@@ -25,8 +25,8 @@ export class ForgotpasswordComponent implements OnInit{
   }
   Resetpasswordsubmission(){
     let reqdata ={
-      password:this.resetPasswordForm.value. password,
-      confirmpassword:this.resetPasswordForm.value.confirmpassword
+      password:this.resetpasswordform.value.password,
+      confirmpassword:this.resetpasswordform.value.confirmpassword
 
     }
     this.userService.userResetPassword(reqdata,this.token).subscribe((response :any) =>{

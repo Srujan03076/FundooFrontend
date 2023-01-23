@@ -1,1 +1,87 @@
-<p>dashboard works!</p>
+<div class="dashboard-container">
+    <mat-toolbar>
+        <div class="menu-button">
+          <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+            <img class="menuicon" src="../../../assets/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+          </button>
+        </div>
+
+        <div class="keepimageandbutton">
+            <img class="keepimg" src="../../../assets/keep_2020q4_48dp.png" alt="">
+        </div>
+
+        <span class="fundoo">Fundoo</span>
+
+        <div class="Search">
+            <mat-form-field style="width: 400%;" appearance="outline">
+              <mat-label>Search</mat-label> <input matInput placeholder="Search">
+              <img class="searchicon" src="../../../assets/search_FILL0_wght400_GRAD0_opsz48 (2).svg" alt="">
+            </mat-form-field>
+          </div> 
+           <div class="refreshandsetting">
+              <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <img class="refreshbutton" src="../../../assets/refresh_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+              </button>
+              </div>
+              <div class="viewbuttonclass">
+               <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <img class="viewbutton" src="../../../assets/view_agenda_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+              </button> 
+             </div>
+             <div class="settingbuttonclass">
+              <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <img class="settingbutton" src="../../../assets/settings_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+              </button>
+              </div>
+              <div class="appbuttonclass">
+              <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <img class="appbutton" src="../../../assets/apps_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+              </button>
+              </div>
+              <div class="accountbuttonclass">
+               <button  mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+               <img class="accountbutton" src="../../../assets/account_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+              </button>
+               </div>  
+         </mat-toolbar>
+
+        <mat-sidenav-container class="sidenav-container">
+          <mat-sidenav mode="side" opened >
+            <div class="container">
+              <mat-nav-list>
+                <div class="iconsandlist">
+                  <button mat-button class="sidenav-button" >
+                    <img class="sidenav-img" src="../../../assets/lightbulb_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    Notes
+                  </button>
+                </div>
+                <div class="iconsandlist">
+                  <button mat-button class="sidenav-button" >
+                    <img class="sidenav-img" src="../../../assets/notifications_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                   Reminders
+                  </button>
+                </div>
+                <div class="iconsandlist">
+                  <button mat-button class="sidenav-button" >
+                    <img class="sidenav-img" src="../../../assets/edit_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    Edit Labels
+                  </button>
+                </div>
+                <div class="iconsandlist">
+                  <button mat-button class="sidenav-button" >
+                    <img class="sidenav-img" src="../../../assets/archive_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                    Archive
+                  </button>
+                </div>
+                <div class="iconsandlist">
+                  <button mat-button class="sidenav-button" >
+                    <img class="sidenav-img" src="../../../assets/delete_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                   Trash
+                  </button>
+                </div>
+              </mat-nav-list>
+            </div>
+          </mat-sidenav>
+        </mat-sidenav-container>
+
+      
