@@ -110,6 +110,9 @@ mat-form-field{
     width: 400px;
     height: 60px;
 }
+mat-error{
+    font-size: 13px;
+}
 .login-info2
 {
      //   border: 2px solid pink;
@@ -141,14 +144,14 @@ font-size: 14px;
 
 }
 
-.forgotpassbutton
+.forgotemailbutton
 {
     // display: flex;
     // flex-direction: row;
     // justify-content: flex-end;
     position: relative;
     bottom:55px;
-    left:350px;
+    left:370px;
     
    
 }
@@ -224,8 +227,8 @@ font-size: 14px;
     background-color: var(--gm-colortextbutton-ink-color,#1a73e8);
     color: white;
     border-radius: 6px;
-    width: 22%;
-    height: 180%;
+    width: 80px;
+    height: 30px;
     font-size: .875rem;
     letter-spacing: .0107142857em;
     font-weight: 500;

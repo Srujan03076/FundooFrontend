@@ -10,11 +10,14 @@
     <div class="title">
         <p> Create your Fundoo Account</p>
     </div>
+    <form  [formGroup]="registerForm" (ngSubmit)="RegisterSubmit()" >
+        <!-- [formGroup]="registerForm" (ngSubmit)="OnSubmit()" -->
     <div class="firstname">
 
         <mat-form-field appearance="outline">
             <mat-label>First name</mat-label>
             <input type="text" formControlName="firstName" matInput placeholder="First name">
+            <!-- formControlName="firstName"  -->
             <mat-error>Enter first name</mat-error>
         </mat-form-field>
     </div>
@@ -22,15 +25,17 @@
         <mat-form-field appearance="outline">
             <mat-label>Last name</mat-label>
             <input type="text" formControlName="lastName" matInput placeholder="Last name">
+            <!-- formControlName="lastName" -->
             <mat-error>Enter last name</mat-error>
         </mat-form-field>
     </div>
     <div class="username">
         <mat-form-field style="width: 57%;" appearance="outline">
             <mat-label> Username</mat-label>
-            <input type="text" formControlName="username" matInput placeholder="Username">
+            <input type="text"  formControlName="email"  matInput placeholder="Username">
+            <!-- formControlName=" email" -->
             <mat-error>Choose a Gmail address</mat-error>
-            <mat-hint>You can use letters,numbers & periods</mat-hint>
+           <mat-hint>You can use letters,numbers & periods</mat-hint>
         </mat-form-field>
     </div>
     <div class="emailbutton">
@@ -41,7 +46,8 @@
 
         <mat-form-field appearance="outline">
             <mat-label>Password</mat-label>
-            <input type="text" formControlName="password" matInput placeholder="Password">
+            <input type="text" formControlName="password"  matInput placeholder="Password">
+            <!-- formControlName="password" -->
             <mat-error>Enter a password</mat-error>
         </mat-form-field>
     </div>
@@ -49,8 +55,9 @@
     <div class="confirmpass">
         <mat-form-field appearance="outline">
             <mat-label>Confirm</mat-label>
-            <input type="text" formControlName="confirm" matInput placeholder="Confirm">
-            <!-- <mat-error>Enter first name</mat-error> -->
+            <input type="text" formControlName="confirm"  matInput placeholder="Confirm">
+            <!-- formControlName="confirm" -->
+            <mat-error>Password is not same</mat-error>
         </mat-form-field>
     </div>
     <div class="hint">
@@ -64,6 +71,7 @@
 
         <button class="button3">Next</button>
     </div>
+</form>
     <div class="rightdiv">
         <div calss="imageandpara">
             <img class="image" src="../../../assets/account.jpg" alt="">

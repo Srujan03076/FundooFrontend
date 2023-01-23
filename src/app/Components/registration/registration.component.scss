@@ -73,7 +73,7 @@ mat-form-field{
 }
 .username{
     position: relative;
-    bottom: 50px;
+    bottom: 40px;
 }
 mat-hint{
     position: relative;
@@ -83,7 +83,7 @@ mat-hint{
 }
 .emailbutton{
     position: relative;
-    bottom: 30px;
+    bottom: 10px;
     right:5px;
 
 }
@@ -120,14 +120,14 @@ mat-hint{
     font-size: 11px;
    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
    position: relative;
-   bottom:70px;
+   bottom:50px;
    left: 15px;
 }
 .show-pass{
     font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
     font-size: 15px;
     position: relative;
-    bottom: 70px;
+    bottom: 30px;
     cursor: pointer;
 }
 
@@ -137,6 +137,7 @@ mat-hint{
     justify-content: space-between;
     position: relative;
     width:400px;
+    top:20px;
     
 }
 
@@ -156,8 +157,8 @@ mat-hint{
     background-color: var(--gm-colortextbutton-ink-color,#1a73e8);
     color: white;
     border-radius: 6px;
-    width: 22%;
-    height: 180%;
+    width: 80px;
+    height: 30px;
     font-size: .875rem;
     letter-spacing: .0107142857em;
     font-weight: 500;
