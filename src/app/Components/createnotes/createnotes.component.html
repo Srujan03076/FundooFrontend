@@ -1,0 +1,33 @@
+<div class="create-notes-container">
+    <div class="takeanote">
+        <mat-form-field class="matform1" appearance="outline">
+            <!-- <mat-icon>search</mat-icon> -->
+            <input class="note1" type="text" matInput placeholder="Take a note...">
+
+            <button mat-icon-button class="closebuttonclass" aria-label="Example icon-button with menu icon">
+                <img class="closebutton" src="../../../assets/check_box_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            </button>
+            <button mat-icon-button class="closebuttonclass" aria-label="Example icon-button with menu icon">
+                <img class="brush" src="../../../assets/brush_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            </button>
+
+            <button mat-icon-button class="closebuttonclass" aria-label="Example icon-button with menu icon">
+                <img class="insertphoto" src="../../../assets/image_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            </button>
+        </mat-form-field>
+    </div>
+
+    <div class="title">
+        <!-- <mat-form-field class="matform2" appearance="outline"> -->
+             <input class="note3" matInput type="text" placeholder="Title" formControlName="title">
+             <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+                <img class="pin" src="../../../assets/push_pin_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+             </button>
+        <!-- </mat-form-field> -->
+
+        <input class="note2" matInput type="text" placeholder="Take a note..." formControlName="description">
+        <div class="closebutton">
+            <button>Close</button>
+
+        </div>
+     </div>

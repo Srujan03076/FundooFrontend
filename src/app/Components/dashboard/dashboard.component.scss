@@ -20,9 +20,11 @@
   .menu-button{
     position: relative;
     bottom: 10px;
+    
   }
  .menuicon{
     width: 37px;
+    
  }
   .keepimageandbutton{
     position: relative;
@@ -39,6 +41,7 @@
     left: 20px;
     bottom:5px;
 }
+
 .Search{
     //margin-left: ;
     margin-top: 1em;
@@ -60,6 +63,13 @@
     top:10px;
     
 }
+.example-icon{
+    border: none;
+    background-color:transparent;
+    position: relative;
+    width: 50px;
+    cursor:pointer;
+}
 mat-form-field{
     //width: 400px;
     height: 70px;
@@ -75,6 +85,10 @@ mat-label{
     font-family: "Product Sans",Arial,sans-serif;
     //position: relative;
     
+}
+mat-icon-button{
+  
+    border: none;
 }
 
 .refreshandsetting{
@@ -122,8 +136,42 @@ mat-label{
 .accountbuttonclass{
     position: relative;
     left: 1150px;
+ border: none;
+    
 }
 .accountbutton{
     position: relative;
     width: 37px;
+  
+    
+}
+
+.sidenav-container{
+    position: relative;
+    width: 200px;
+    height: 500px;
+    //padding: 48px 40px 36px;
+    display: flex;
+    flex-direction: column;
+
+}
+.list{
+    position: relative;
+    width: 400px;
+}
+
+
+ .sidebar{
+    
+    font-size: 19px;
+    font-family: "Product Sans",Arial,sans-serif;
+    font-weight: 500;
+
+ }
+ .Remindersnav
+{
+    position: relative;
+    bottom:5px;
+    left:10px;
+   // width:300px;
 }
