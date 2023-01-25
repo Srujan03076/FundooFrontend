@@ -19,6 +19,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import { CreatenotesComponent } from './Components/createnotes/createnotes.component';
+import { IconsComponent } from './Components/icons/icons.component';
 
 
 
@@ -30,7 +32,9 @@ import {MatListModule} from '@angular/material/list';
     RegistrationComponent,
     ForgotemailComponent,
     ForgotpasswordComponent,
-    DashboardComponent
+    DashboardComponent,
+    CreatenotesComponent,
+    IconsComponent
   ],
   imports: [
     BrowserModule,
