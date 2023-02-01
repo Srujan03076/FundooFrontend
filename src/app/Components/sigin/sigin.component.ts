@@ -18,6 +18,7 @@ export class SiginComponent implements OnInit{
       emailId:['',[Validators.required,Validators.email]],
       password:['',(Validators.required)]
     })
+
     
   }
   LoginSubmit(){
@@ -34,6 +35,4 @@ export class SiginComponent implements OnInit{
     });
   });
 }
-
-}  
-
+} 

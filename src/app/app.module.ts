@@ -5,7 +5,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 //import {MatCheckboxModule} from '@angular/material/checkbox';
 import { MatInputModule } from '@angular/material/input';
 import { AppRoutingModule } from './app-routing.module';
-import { RouterModule, Routes } from '@angular/router';
+// import { RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import { SiginComponent } from './Components/sigin/sigin.component';
 import { RegistrationComponent } from './Components/registration/registration.component';
@@ -49,7 +49,8 @@ import { IconsComponent } from './Components/icons/icons.component';
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
